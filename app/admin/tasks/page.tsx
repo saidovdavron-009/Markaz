@@ -113,7 +113,7 @@ export default function TasksPage() {
                 </div>
                 {task.description && <p className="text-xs text-[var(--muted-foreground)] mt-0.5">{task.description}</p>}
                 <div className="flex items-center gap-3 mt-2 text-xs text-[var(--muted-foreground)]">
-                  <div className="flex items-center gap-1"><UserAvatar name={task.assignedTo} size="xs" />{task.assignedTo}</div>
+                  <div className="flex items-center gap-1"><UserAvatar name={task.assignedTo} size="xl" />{task.assignedTo}</div>
                   <span className="flex items-center gap-1"><Clock className="h-3 w-3" />{task.deadline}</span>
                 </div>
               </div>
